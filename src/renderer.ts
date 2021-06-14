@@ -1,7 +1,7 @@
 import * as puppeteer from 'puppeteer';
 import * as url from 'url';
 
-let cookieWarningFilters = require('/Users/felipemoraes/Developer/rendertron/cookieWarningFilters.json');
+let cookieWarningFilters = require('../cookieWarningFilters.json');
 cookieWarningFilters = cookieWarningFilters.cookieWarningFilters;
 
 import { Config } from './config';
